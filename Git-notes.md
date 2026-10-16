@@ -109,7 +109,7 @@
 ### Example:
 ###   $git config --global user.name "Rashmi"
 ###   $git config --global user.email "rkhehakhiuh57@gmamil.com"
-###  $git config --list
+###   $git config --list
 ### output: 
 ### Rashmi
 ### rkhehakhiuh57@gmamil.com
@@ -145,12 +145,9 @@
 
 ## 6. git add filename
 ##    git add .
-
-### Explanation:- Stages changes in the staging area are ready for the next commit. 
-### git add filename :- Adds a specific file's changes to the staging area so they can be included in the next commit.
+### Explaination:- Stages changes in the staging area are ready for the next commit. 
+### git add filename:- Adds a specific file's changes to the staging area so they can be included in the next commit.
 ### git add . :- stages multiple changes throught the current directory and its subdirectories.
-
-### example: $git add .
 
 
 ## 7. git commit -m "Commit message"
