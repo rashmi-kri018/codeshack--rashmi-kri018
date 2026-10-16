@@ -1,8 +1,7 @@
 # 💻CodeShack Developer Handbook
 
 ### ⏩Welcome to my Developer Handbook. This repository documents my learning journey with Git, GitHUB, and command-line tools as part of the Codeshack first task.
-### During this learning process I had learn how to use command-line Interface(CLI) , use commands to make the project, and how to upload our projects using Git to GitHub.
-
+### During this learning process I had learn how to use command-line Interface(CLI) , use commands to make the project, and how to upload our projects using Git to GitHub
 # 🎯Objectives:
 ### ➡️ Understand Git and GitHub fundamentals.
 ### ➡️ Learn essential Git commands.
