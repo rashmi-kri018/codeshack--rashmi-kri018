@@ -35,7 +35,7 @@
 
 
 
-## What is working directory, Staging area, and Commit?
+# What is working directory, Staging area, and Commit?
  ### Working directory --> It is tht current folder where we make changes to our file.
 
  ### Staging Area --> It is a temporary area were we keep the changes that will be included in the next commit.
@@ -44,12 +44,12 @@
 
 
 
-## what is .git?
+# what is .git?
 ### The .git folder is a hidden directory that stores the information Git needs to track and manage your project. It is created when you initialize a Git repository using git init or clone a repository using git clone.
 ### .git/ stores Git's internal information, including commit history, branch information, and repository configuration.
 
 
-## Simple Git workflow
+# Simple Git workflow
 ###         Working Directory
 ###              ⬇️ git add
 ###         staging Area
@@ -57,12 +57,12 @@
 ###         Local Repository
 
 
-## What is Branch in Git?
+# What is Branch in Git?
 ### A branch is an independent line of development in a Git repository that allows you to work on new features or make changes without directly changing the work on another branch.
 ### Think of a branch as a separate workspace for developing a feature.
 
 
-## Important branch commands
+# Important branch commands
 ### Command          	    Purpose
 ### git branch	             Lists local branches
 ### git branch feature	     Creates a branch named feature
@@ -73,19 +73,19 @@
 
 
 
-## What is Branching in Git?
+# What is Branching in Git?
 ### Branching is the process of creating and working on separate lines of development within the same Git repository.
 ### It allows developers to work on new features, fix bugs, or experiment with changes without directly affecting the main branch.
 
 
-## Why is branching important?
+# Why is branching important?
 ### Parallel development: Multiple developers can work on different features.
 ### Isolation: Feature work stays separate from the main line of development.
 ### Experimentation: You can try changes without immediately incorporating them into main.
 ### Collaboration: Teams can review changes before merging them.
 ### Bug fixing: Developers can work on fixes independently.
 
-## Branch vs. branching
+# Branch vs. branching
 ### A branch is the separate line of development; branching is the process of creating and using it.
 
 
@@ -167,13 +167,10 @@
 ### commit a1b2345678
 ### Author: Rashmi <rashmi@example.com>
 ### Date:   Wed Oct 14 20:30:00 2026 +0530
-
 ###    Add README introduction
-
 ### commit b2c3d4e678
 ### Author: Rashmi <rashmi@example.com>
 ### Date:   Wed Oct 14 19:45:00 2026 +0530
-
 ###  Create developer handbook
 
 
@@ -241,8 +238,8 @@
 ## push --> push means uploading your local commits to the remote repository on GitHub.
 
 
-## git push origin main
-## git push -u origin name
+## 16.git push origin main
+##    git push -u origin name
 ### explanation:- Both commands upload your local commits to a remote repository, usually GitHub. The main difference is that -u sets up an upstream connection, making future pushes easier.
 
 ### example: $git push origin main
@@ -254,7 +251,7 @@
 ### --> instead of specifying the remote and branch every time.
 
 
-## git pull repository-name branch-name
+## 17.git pull repository-name branch-name
 ### explaination:-  git pull is a Git command that fetches changes from a remote repository and integrates them into the current local branch.
 
 ### example:- git pull origin main
